@@ -1,0 +1,138 @@
+
+
+body{
+    width: 1400px;
+    margin: auto;
+}
+
+/* <!-- header  section--> */
+
+.header{
+    background-color: #101446;
+}
+.logo{ 
+    text-align: center;
+ }
+.logo a img{ 
+    height: 80px;
+ }
+
+.primary_menu{ 
+
+ }
+.primary_menu ul{ 
+    list-style: none;
+    font-size: 21px;
+    padding: 0px 30px;
+    line-height: 72px;
+    margin-bottom: 0px;
+ }
+.primary_menu ul li{
+    display: inline-block;
+  }
+.primary_menu ul li a{ 
+    
+    display: block;
+    text-decoration: none;
+    padding: 0 7px;
+    margin-left: -4px;
+ }
+.primary_menu ul li a:hover{
+    color: blue;
+  }
+
+/* <!-- banner section --> */
+.banner{
+    background-image: url(./intro-bg.jpg);
+    padding: 400px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.banner-text h2{}
+.banner-text p{}
+.banner-text button{
+    background-color: #337ab7;
+    padding: 5px 15px;
+    color: #fff;
+}
+
+/* <!-- meet section --> */
+
+.meet-teem{
+    background-color: #bac1f3;
+ }
+.meet-teem h2{
+    font-size: 50px;
+    padding: 20px 0px;
+
+ }
+ .meet-section-img{ 
+     background-color: #bac1f3;
+
+  }
+ .img-1{    }
+ .img-1 p{margin: 7px 100px }
+ .img-2 p{margin: 7px 100px }
+ .img-3 p{margin: 7px 100px }
+ .img-1 button{
+    background: #337ab7;
+    color: #fff;
+}  
+.img-2 button{
+    background: #337ab7;
+    color: #fff;
+} 
+.img-3 button{
+    background: #337ab7;
+    color: #fff;
+    margin-bottom: 65px;
+    
+    margin-top: 15px;
+}   
+ /* img- :hover */
+
+ .img-1 button:hover{background-color: aqua;}
+ .img-2 button:hover{background-color: aqua;}
+ .img-3 button:hover{background-color: aqua;}
+
+ /* <!-- About section --> */
+.About{
+    background: #c2d4ea;
+ }
+.about-header{ 
+    padding: 40px 0px;
+}
+.img-4{}
+.img-4-text{ margin-top: 37px;}
+.img-4-bottom{
+    margin: 33px;
+    text-align: left;
+}
+
+.about-me-text{ }
+.about-me-text h3{ }
+.about-me-text p{ }
+/* .about-me-text p{ } */
+
+
+/* <!-- contact section --> */
+
+.contact-section{   }
+.ontact-header{ }
+.location-map{  }
+.location-map img{ 
+    width: 100%;
+ }
+
+.form-section{  }
+.form-section form{  }
+.form-section form button{  }
+
+/* <!-- footer section --> */
+.footer{  
+    background-color:#0062d3;
+    margin: 10px 0px;
+    color: #fff;
+    font-size:20px;
+  }
